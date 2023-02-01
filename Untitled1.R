@@ -9,5 +9,10 @@ dev.off()
 
 write.csv(mtcars, file="mtcars.csv")
 
-summary(aov(mtcars$mpg~mtcars$cyl))
+x <- aov(mpg~cyl, data=mtcars)
+summary(x)
+
 hist()
+
+
+edit 
