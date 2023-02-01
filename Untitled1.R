@@ -10,3 +10,4 @@ dev.off()
 write.csv(mtcars, file="mtcars.csv")
 
 summary(aov(mtcars$mpg~mtcars$cyl))
+hist()
